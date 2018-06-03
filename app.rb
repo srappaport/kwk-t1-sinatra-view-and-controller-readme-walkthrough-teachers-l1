@@ -14,10 +14,12 @@ class App < Sinatra::Base
 
   get '/friends' do
     @friends = ['Emily Wilding Davison', 'Harriet Tubman', 'Joan of Arc', 'Malala Yousafzai', 'Sojourner Truth']
-    
-    <% @friends.each do |friend| %>
-      <h2><%= friend %></h2>
-    <% end %>
+
+    <h2>Emily Wilding Davison</h2>
+  <h2>Harriet Tubman</h2>
+  <h2>Joan of Arc</h2>
+  <h2>Malala Yousafzai</h2>
+  <h2>Sojourner Truth</h2>
 
     erb :friends
 
