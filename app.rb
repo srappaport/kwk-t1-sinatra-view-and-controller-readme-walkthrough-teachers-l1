@@ -12,16 +12,16 @@ class App < Sinatra::Base
     erb :reversed
   end
 
-  get '/friends' do
-    @friends = ['Emily Wilding Davison', 'Harriet Tubman', 'Joan of Arc', 'Malala Yousafzai', 'Sojourner Truth']
+#  get '/friends' do
+#    @friends = ['Emily Wilding Davison', 'Harriet Tubman', 'Joan of Arc', 'Malala Yousafzai', 'Sojourner Truth']
+#
+#    <h2>Emily Wilding Davison</h2>
+#  <h2>Harriet Tubman</h2>
+#  <h2>Joan of Arc</h2>
+#  <h2>Malala Yousafzai</h2>
+#  <h2>Sojourner Truth</h2>
 
-    <h2>Emily Wilding Davison</h2>
-  <h2>Harriet Tubman</h2>
-  <h2>Joan of Arc</h2>
-  <h2>Malala Yousafzai</h2>
-  <h2>Sojourner Truth</h2>
+#    erb :friends
 
-    erb :friends
-
-  end
+#  end
 end
